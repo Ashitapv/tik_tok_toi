@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main {
+  background-image: url(./1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment:fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: pink;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input[type="button"]{
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  color: rgb(34, 34, 146);
+  border-radius: 5px;
+  background-image: url(./2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+  filter:opacity(80%);
+  font-size: 30px;
+  font-weight: 900;
+}
+input[type="button"]:hover
+{
+  height: 105px;
+  width: 105px;
+  border: 5px solid blue;
+  border-radius: 5px;
+  background-image: url(./2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+  filter:opacity(80%);
+  font-size: 40px;
+  font-weight: 900;
+  transition: .10s;
+}
+input[type="button"]:active
+{
+  height: 105px;
+  width: 105px;
+  border: 5px solid red;
+  border-radius: 5px;
+  background-image: url(./2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  background-attachment: fixed;
+  filter:opacity(80%);
+  font-size: 40px;
+  font-weight: 900;
+  transition: .10s;
+}
+input[type="text"]
+{
+  margin-top: 10px;
+  height: 30px;
+}
+
+  
+
